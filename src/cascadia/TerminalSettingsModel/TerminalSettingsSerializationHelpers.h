@@ -782,3 +782,10 @@ JSON_ENUM_MAPPER(::winrt::Microsoft::Terminal::Control::TextMeasurement)
         pair_type{ "console", ValueType::Console },
     };
 };
+
+JSON_ENUM_MAPPER(::winrt::Microsoft::Terminal::Control::DefaultInputScope)
+{
+    JSON_MAPPINGS(1) = {
+        pair_type{ "onechar", ValueType::Onechar },
+    };
+};

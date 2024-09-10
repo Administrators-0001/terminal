@@ -1241,6 +1241,7 @@ offboarded
 OLEAUT
 OLECHAR
 onebranch
+onechar
 onecore
 ONECOREBASE
 ONECORESDKTOOLS

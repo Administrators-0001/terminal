@@ -16,6 +16,11 @@ Handle Handle::Create()
     return handle;
 }
 
+void Handle::SetDefaultScopeOnechar()
+{
+    Implementation::SetDefaultScopeOnechar();
+}
+
 Handle::~Handle()
 {
     if (_impl)
